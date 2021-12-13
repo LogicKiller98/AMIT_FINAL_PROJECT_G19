@@ -1,18 +1,19 @@
-///// this project was made on eclipse avr 
-///// made by Ahmed Mostafa group: G19 NASR ///////////////////////////////////////////////
- NOTES //////////////////////
-//////////////////////// The Interrupts are changed from the vector table due to the simulation as they don't work for unkown reasons so :
- ///////// ON/OFF BUTTONS SHOULD BE vector_3 
-//////// TEMP TIME FLAG SHOULD BE vector_7 
-/////// TIMER TRIPS EVERY 1 SEC SHOULD BE vector_10
- //////////////////////////////////////////////////// 
-THE PROJECT RUNS ON 1 MHZ TO MAKE TIMER CALCULATIONS EASIER 
-/////////////////////////////////////////////////////////////
-
-///// this project was made on eclipse avr the followng folders 
-///// 
-//// HAL "contains: buttons, cool_heat elements, LED, seven segment display" 
-MCAL "contains: ADC, Timers, GIE, system control"
- app "contains: main, BIT_math, std macros, STD_Types" /// ///
-
-END OF READ ME .......... THANK YOU................
+#///// this project was made on eclipse avr 
+#///// made by Ahmed Mostafa group: G19 NASR ///////////////////////////////////////////////
+#NOTES //////////////////////
+#//////////////////////// The Interrupts are changed from the vector table due to the simulation as they don't work for unkown reasons so :
+#///////// ON/OFF BUTTONS SHOULD BE vector_3 
+#//////// TEMP TIME FLAG SHOULD BE vector_7 
+#/////// TIMER TRIPS EVERY 1 SEC SHOULD BE vector_10
+#//////////////////////////////////////////////////// 
+#THE PROJECT RUNS ON 1 MHZ TO MAKE TIMER CALCULATIONS EASIER 
+#/////////////////////////////////////////////////////////////
+#
+#///// this project was made on eclipse avr the followng folders are just a devision folders the code does not run from them
+#///// 
+#//// HAL "contains: buttons, cool_heat elements, LED, seven segment display" 
+#MCAL "contains: ADC, Timers, GIE, system control"
+ #app "contains: main, BIT_math, std macros, STD_Types" /// ///
+#THE ARE USED JUST TO SHOW YOU THE HAL AND MCAL LAYERS NOT TO RUN FROM THEM
+#TO RUN THE CODE REFER TO THE FILES IN THE REPOSETRY NOT IN THE INCLUDED FOLDERS 
+#END OF READ ME .......... THANK YOU................
